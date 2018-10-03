@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "standard --verbose | snazzy && stylelint '**/*.js'",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "heroku-postbuild": "next build"
   },
   "repository": {
     "type": "git",
