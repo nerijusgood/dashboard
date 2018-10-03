@@ -7,10 +7,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "lint": "standard --verbose | snazzy && stylelint '**/*.js'",
-    "test": "npm run lint",
-    "heroku-postbuild": "next build"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
