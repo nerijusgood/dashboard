@@ -1,4 +1,4 @@
-npm import { Component } from 'react'
+import { Component } from 'react'
 import fetch from 'isomorphic-unfetch'
 import { object, string, number } from 'yup'
 import Widget from '../../widget'
